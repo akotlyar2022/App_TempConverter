@@ -9,10 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var labelTempC: UILabel!
+    
+    @IBOutlet weak var labelTempF: UILabel!
+    
+    @IBOutlet weak var sliderTemp: UISlider!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
 
+    @IBAction func changeTemp(_ sender: UISlider) {
+    }
 }
 
